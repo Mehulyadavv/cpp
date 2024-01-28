@@ -8,6 +8,9 @@ public:
     string title;
     string author;
     int pages;
+    Book() {
+        cout << "creating object" << endl;
+    }
 };
 
 int main()
